@@ -20,7 +20,7 @@ NEWSPIDER_MODULE = 'first.spiders'
 
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = False
+ROBOTSTXT_OBEY = False  #默认为开启robot协议
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -66,7 +66,7 @@ ROBOTSTXT_OBEY = False
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'first.pipelines.FirstPipeline': 300,
+    'first.pipelines.FirstPipeline': 300, #FirstPipline为pipeline中的类
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
