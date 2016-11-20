@@ -5,7 +5,7 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
-#piplines 文件用于数据的后处理，需要开启setting文件的piplines
+#pipelines 文件用于数据的后处理，需要开启setting文件的pipelines
 class FirstPipeline(object):
     def process_item(self, item, spider):
         for i in range(0,len(item["title"])):
