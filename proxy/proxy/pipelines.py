@@ -13,7 +13,3 @@ class ProxyPipeline(object):
     		print("PORT:"+item["port_1"][i])
     		print("类型:"+item["type_1"][i])
     		print("———————————————————————")
-    	#print(item["IP"])
-    	#print(item["port_1"])
-    	#print(item["type_1"])
-        #return item
