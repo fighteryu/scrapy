@@ -57,3 +57,7 @@ urllib.parse.urljoin(base, url, allow_fragments=True)
 from urllib.parse import urljoin
 urljoin('http://www.cwi.nl/%7Eguido/Python.html', 'FAQ.html')
 'http://www.cwi.nl/%7Eguido/FAQ.html'
+
+
+#scrapy 日志文件保存
+>>scrapy crawl spder_name -s LOG_FILE=scrapy.log 
